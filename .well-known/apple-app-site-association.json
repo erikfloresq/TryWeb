@@ -1,0 +1,14 @@
+{
+   "applinks": {
+       "apps": [],
+       "details": [
+           {
+               "appID": "CPX7FN2K89.dev.erikflores.TryApp",
+               "paths": [ "/buy/*", "/help/*"]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "CPX7FN2K89.dev.erikflores.TryApp" ]
+   }
+}
