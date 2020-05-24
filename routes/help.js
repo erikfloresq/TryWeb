@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('Help page');
+  res.render('buy', { title: 'TryWeb - Help page' });
 });
 
 module.exports = router;
