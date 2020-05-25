@@ -1,5 +1,5 @@
 doctype html
-html
+html(xmlns:og='http://opengraphprotocol.org/schema/')
   head
     title= title
     meta(name='robots', content='noodp')
@@ -11,5 +11,12 @@ html
     meta(property='og:image', content='https://try-webpage.herokuapp.com/trywebimage.png')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='apple-touch-icon', href='https://try-webpage.herokuapp.com/tryweb-appicon.png')
+
+    meta(property='twitter:card', content='summary')
+    meta(property='twitter:site', content='@erikfloresq')
+    meta(property='twitter:url', content='https://try-webpage.herokuapp.com')
+    meta(property='twitter:title', content='Try Web')
+    meta(property='twitter:description', content='Development web')
+    meta(property='twitter:image:src', content='https://try-webpage.herokuapp.com/tryweb-appicon.png')
   body
     block content
