@@ -8,7 +8,6 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const helpRouter = require('./routes/help');
 const buyRouter = require('./routes/buy');
-const appleRouter = require('./routes/appleAppSiteAssociation');
 
 const app = express();
 
@@ -26,8 +25,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/help', helpRouter);
 app.use('/buy', buyRouter);
-app.use('/.well-known', appleRouter);
-//app.use('/apple-app-site-association', appleRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
